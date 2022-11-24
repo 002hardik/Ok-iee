@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Join.css";
-import image2 from "../../images/image2.png";
+import image2 from "../../images/image2.jpg";
 import {Link} from "react-router-dom";
 import video2 from "../../images/video2.mp4";
 import { ToastContainer, toast } from "react-toastify";
