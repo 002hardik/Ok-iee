@@ -7,6 +7,8 @@ import Message from "../Message/Message";
 import ReactScrollToBottom from "react-scroll-to-bottom";
 import closeIcon from "../../images/closeIcon.png";
 import video1 from "../../images/video1.mp4";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const ENDPOINT = "https://chat-application-api.onrender.com" ;
 
@@ -31,7 +33,7 @@ const Chat = () => {
     setSocket(socket);
 
     socket.on("connect", () => {
-      alert("Connected");
+      toast("You Are Connected");
       setid(socket.id);
     });
     console.log(socket);
@@ -104,6 +106,7 @@ const Chat = () => {
           <button onClick={send} className="sendBtn">
             <img src={sendLogo} alt="Send" />
           </button>
+          <ToastContainer/>
         </div>
       </div>
     </div>
