@@ -21,7 +21,7 @@
 
 .JoinContainer > img{
     width: 10vmax;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 .JoinContainer >h1{
     color: white;
@@ -57,7 +57,7 @@
     cursor: pointer;
     box-sizing: border-box;
     transition: all 0.3s;
-    opacity: 1.2;
+    opacity: 5.8;
 }
 .joinbtn:hover{
     background-color: rgba(219, 9, 51, 0.412);

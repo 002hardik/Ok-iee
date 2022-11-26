@@ -15,22 +15,21 @@ const sendUser=()=>{
   <ToastContainer/>
 }
 
+
 const Join = () => {
   
   const [name,setname]=useState("")
-  
- 
+
   return (
     <>
     <div className='main'>
-        <div className="overlay"></div>
         <video src={video2} autoPlay loop muted />
         <div className="content">
             {/* <h1>Welcome</h1>
             <p>To my site.</p> */}
             <div className='JoinPage'>
       <div className='JoinContainer'>
-      <img src={image2} alt='logo'/>
+      <img src={image2}  alt='logo'/>
         <h1>Ok-iee 🤖</h1>
         <input onChange={(e) => setname(e.target.value)} placeholder='Enter Your Name' type="text" id="joinInput"/>
         <Link onClick={(event)=> !name ?event.preventDefault():null} to="/chat"> <button onClick={sendUser} className='joinbtn'>Login In</button> <ToastContainer/> </Link>

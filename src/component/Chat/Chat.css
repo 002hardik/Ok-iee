@@ -65,7 +65,7 @@
     background-color: rgb(241, 231, 231);
     outline: none;
     font-size: 1.2vmax;
-    border: 0.2vmax solid black;
+    /* border: 0.2vmax solid black; */
     opacity: 0.9;
 }
 
