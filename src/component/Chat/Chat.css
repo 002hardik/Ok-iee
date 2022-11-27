@@ -11,7 +11,7 @@
 }
 
 .chatContainer{
-    background-color: rgb(210, 210, 223);
+    background-color: rgb(0, 0, 0);
     height: 60%;
     width: 50%;
     opacity: 0.7;
@@ -62,7 +62,7 @@
     border: none;
     padding: 2vmax;
     box-sizing: border-box;
-    background-color: rgb(241, 231, 231);
+    background-color: rgb(242, 246, 244);
     outline: none;
     font-size: 1.2vmax;
     /* border: 0.2vmax solid black; */
