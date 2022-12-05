@@ -88,7 +88,7 @@
     transition: all 0.3s;
 }
 .sendBtn:hover{
-    background-color: rgb(12, 68, 84);
+    background-color: rgb(6, 183, 12);
 }
 .sendBtn:hover img{
     transform:translateX(10px) ;
