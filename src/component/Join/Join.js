@@ -9,7 +9,7 @@ import "react-toastify/dist/ReactToastify.css";
 let user;
 
 const sendUser=()=>{
-   toast("You Are Connected");
+   toast("you are connected");
   user=document.getElementById('joinInput').value;
   document.getElementById('joinInput').value = "";
   <ToastContainer/>
