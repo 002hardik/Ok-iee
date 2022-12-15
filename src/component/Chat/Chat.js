@@ -80,7 +80,7 @@ const Chat = () => {
             <div className="chatPage">
       <div className="chatContainer"> 
         <div className="header">
-          <h2>Ok-iee🤖</h2>
+          <h2>Ok-iee 🤖</h2>
           <a href="/">
             {" "}
             <img src={closeIcon} alt="Close" />
